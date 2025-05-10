@@ -68,3 +68,13 @@ footer{
     text-align: center;
     font-size: 20px;
 }
+.page_aluno {
+    text-align: center;
+}
+.login_aluno{
+    border: solid 1px red;
+    height: 200px;
+    width: 400px;
+    text-align: center;
+
+}
