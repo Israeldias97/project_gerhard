@@ -9,18 +9,22 @@
 <body>
     <header>
         <h1 class="page_aluno">Espaço do Aluno - Faça seu Login ! </h1>
-        <nav>
-            <form class="login_aluno" action="">
-                <label for="Login">Login: </label>
-                <input type="text" id="Login"> <br><br>
-                <label for="senha">Login: </label>
-                <input type="password" id="senha"><br><br>
-                <input type="submit"  >
-
+    </header>
+    <main>
+        <nav class="nav_aluno">
+            <form class="cadastro_aluno">
+                <label for="name">Nome </label>
+                <input type="text" id="name" name="name" placeholder="Nome" required>
+                <label for="password">Senha </label>
+                <input type="password" id="password" name="password" placeholder="Senha" required>
+                <label for="registration">Matricula </label>
+                <input type="text" id="ragistration" name="ragistration" placeholder="Matricula" required>
+                <label for="email">Email </label>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <button type="submit" class="botao">Entrar</button>
             </form>
         </nav>
-    </header>
-    <main></main>
+    </main>
     <footer></footer>
 </body>
 </html>

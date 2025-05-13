@@ -1,10 +1,14 @@
 *{
-    margin: 5;
+    margin: 0;
     padding: 0;
+    background-color:aliceblue);
+    color: black;
 }
 body{
     font-family: helvetica;
     font-size: 15px;
+    height: 100vh;
+    overflow: hidden;
 }
 body header nav ul li {
     list-style-type: none;
@@ -21,7 +25,8 @@ body header nav ul li {
  
 }
 nav{
-    justify-content: space-around;
+    display: flex;
+    justify-content: space-between;
 }
 header {
     border: solid 1px red;
@@ -47,14 +52,14 @@ main{
 }
 .esquerdo{
     border: solid 1px red;
-    width: 60%;
+    width: 50%;
     height: 100%;
  
     
 }
 .direito{
     border: solid 1px yellow;
-    width: 40%;
+    width: 50%;
     height: 100%;
 
 }
@@ -71,10 +76,39 @@ footer{
 .page_aluno {
     text-align: center;
 }
-.login_aluno{
-    border: solid 1px red;
-    height: 200px;
-    width: 400px;
-    text-align: center;
 
+.cadastro_aluno{
+    border: solid 1px red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    gap: 20px;
+    min-width: 300px;
+    font-size: 20px;
+    font-family: arial;
+    border-radius: 2%;
+    background-color: aliceblue;
+ 
+    
+
+}
+.nav_aluno{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.botao {
+    padding: 3%;
+    border-radius: 2%;
+    width: 100px;
+}
+
+
+body main nav form input{
+    width: 250px;
+    height: 30px;
 }
